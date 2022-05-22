@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "allowJs": true,
+    "outDir": "lib",
+    "declaration": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "module": "commonjs",
+    "target": "es5",
+    "inlineSourceMap": true
+  },
+  "exclude": [
+    "lib/**/*",
+    ".eslintrc.cjs",
+    "tsconfig.json",
+    "nodemon.json"
+  ],
+  "lib": ["esnext"]
+}
